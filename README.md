@@ -33,6 +33,7 @@ limitations under the License.
 
 ## Updates
 
+* [October 2026]: Added support for Gemini 3.8 Flash (`gemini-3.8-flash`).
 * [July 2024]: Added guide to [feed optimisation using BigQuery](bigquery/README.md).
 * [May 2024]: Added support for `gemini-1.5-pro` and `gemini-1.5-flash`
 * [April 2024]
@@ -276,7 +277,7 @@ reporting and performance measurement purposes.
 
 ### Image Understanding
 
-As Gemini (`gemini-pro-vision`) is a multimodal model, we are able to
+As Gemini (`gemini-3.8-flash`) is a multimodal model, we are able to
 additionally examine product images and use them to generate higher quality
 titles and descriptions. This is done by adding additional instructions to the
 existing title and description generation prompts for *extracting* visible
